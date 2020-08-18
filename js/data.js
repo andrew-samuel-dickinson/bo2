@@ -18,6 +18,4 @@ images =
     "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRphb761m4liOHpIMdxOVkPrP7IEq69JQib1g&usqp=CAU",
 ];
 
-video = "https://www.youtube.com/embed/BjILD_ajfYk?autoplay=1";
-
-//<iframe width="560" height="315" src="https://www.youtube.com/embed/fKopy74weus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+video = "https://www.youtube.com/embed/fKopy74weus?autoplay=1";
