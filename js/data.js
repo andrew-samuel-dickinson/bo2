@@ -15,7 +15,7 @@ images =
     "https://i.pinimg.com/236x/70/dd/52/70dd5208032fdcac975727e4d1484c18--funny-stuff-so-funny.jpg",
     "https://i.insider.com/5c79a8cfeb3ce837863155f5?width=750&format=jpeg&auto=webp",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS6YDBxxgiWarH-2u2chH1riSbd5aHnG0tJBw&usqp=CAU", 
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRphb761m4liOHpIMdxOVkPrP7IEq69JQib1g&usqp=CAU",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRphb761m4liOHpIMdxOVkPrP7IEq69JQib1g&usqp=CAU"
 ];
 
 video_id = "fKopy74weus";
