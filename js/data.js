@@ -18,4 +18,5 @@ images =
     "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRphb761m4liOHpIMdxOVkPrP7IEq69JQib1g&usqp=CAU",
 ];
 
-video = "https://www.youtube.com/embed/fKopy74weus?autoplay=1";
+video_id = "fKopy74weus";
+video = "https://www.youtube.com/embed/" + video_id + "?autoplay=1";
