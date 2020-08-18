@@ -20,3 +20,5 @@ images =
 
 video_id = "fKopy74weus";
 video = "https://www.youtube.com/embed/" + video_id + "?autoplay=1";
+
+default_image = "http://placehold.it/800x500"
