@@ -4,10 +4,9 @@ myQaData = [
     {"Q" : "3 - 2", "A" : "1"},
     {"Q" : "2 + ?? = 4", "A" : "2"},
     {"Q" : "4 - 2", "A" : "2"},    
-    {"Q" : "5 + ?? = 10", "A" : "5"},
-    {"Q" : "10 - 5", "A" : "5"},
-    {"Q" : "10 + ?? = 12", "A" : "2"},
-    {"Q" : "12 -10", "A" : "2"},    
+    {"Q" : "20 + ?? = 21", "A" : "1"},
+    {"Q" : "21 - 20", "A" : "1"},
+    {"Q" : "32 - 30 = ??", "A" : "2"}    
 ];
 
 images = 
@@ -18,7 +17,7 @@ images =
     "https://www.abc.net.au/cm/rimage/11514316-4x3-xlarge.jpg?v=3"
 ];
 
-video_id = "VhQXUZZS_4c";
+video_id = "abrqn4nPw9k";
 video = "https://www.youtube.com/embed/" + video_id + "?autoplay=1";
 
 default_image = "http://placehold.it/800x500"
