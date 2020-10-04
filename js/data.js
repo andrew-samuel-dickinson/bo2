@@ -1,23 +1,27 @@
 // TODO move this to JSON?
 myQaData = [
-    {"Q" : "2 + ?? = 3", "A" : "1"},
-    {"Q" : "3 - 2", "A" : "1"},
-    {"Q" : "2 + ?? = 4", "A" : "2"},
-    {"Q" : "4 - 2", "A" : "2"},    
-    {"Q" : "20 + ?? = 21", "A" : "1"},
-    {"Q" : "21 - 20", "A" : "1"},
-    {"Q" : "32 - 30 = ??", "A" : "2"}    
+    {"Q" : "3 + 3", "A" : "6"},
+    {"Q" : "3 + 10", "A" : "13"},
+    {"Q" : "11 + 1", "A" : "12"},
+    {"Q" : "1 + 11", "A" : "12"},    
+    {"Q" : "12 + 1", "A" : "13"},
+    {"Q" : "1 + 12", "A" : "13"},
+    {"Q" : "19 + 1", "A" : "20"},
+    {"Q" : "1 + 19", "A" : "20"},
+    {"Q" : "10 + 3", "A" : "13"},
+    {"Q" : "13 + 3", "A" : "16"},
+    {"Q" : "11 + 9", "A" : "20"},
 ];
 
 images = 
 [
-    "https://i0.wp.com/bestlifeonline.com/wp-content/uploads/2018/04/Animal-jokes-funny-sheep.jpg?resize=1024%2C683&ssl=1",
-    "https://i.insider.com/5c79a8cfeb3ce837863155f5?width=750&format=jpeg&auto=webp",
-    "https://piximus.net/media2/58686/funny-animals-61-2.jpg", 
-    "https://www.abc.net.au/cm/rimage/11514316-4x3-xlarge.jpg?v=3"
+    "https://filmdaily.co/wp-content/uploads/2020/08/funnyanimalmemes-lede-1300x731.jpg",
+    "https://cdn.dumpaday.com/wp-content/uploads/2020/04/the-funny-animals-4-8.jpg",
+    "https://i.insider.com/5ebbfc9ffc593d729d60df73?width=1136&format=jpeg",
+    "https://klyker.com/wp-content/uploads/2019/08/funny-animals-3-4-600x664.jpg"
 ];
 
-video_id = "abrqn4nPw9k";
+video_id = "2f1Ny74_ou0";
 video = "https://www.youtube.com/embed/" + video_id + "?autoplay=1";
 
 default_image = "http://placehold.it/800x500"

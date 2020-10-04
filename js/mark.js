@@ -84,7 +84,7 @@ function markQuestions()
     }
     else
     {
-        comment = "YOUR CLUE IS:   E X _ _ _         ";
+        comment = "YOUR CLUE IS THE LETTERS: S and D";
         uTubeElt.src = video;
         photoElt.src = default_image;
     }
