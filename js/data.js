@@ -16,7 +16,7 @@ myQaData = [
     {"Q" : "21 - 20 = ??", "A" : "1"},
 ];
 
-video_id = "w-RVMvART9kb8";
+video_id = "RVMvART9kb8";
 video = "https://www.youtube.com/embed/" + video_id + "?autoplay=1";
 
 default_image = "http://placehold.it/800x500"
