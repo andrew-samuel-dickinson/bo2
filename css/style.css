@@ -19,10 +19,16 @@ body {
     height: 100%;
 }
 
+.button {
+    position: absolute;
+    color: yellow;
+    size: 30;
+    font-size: 18;
+    top: 50%;
+}
+
 .wrapper {
-    height: 100%;
-    width: auto;
-    margin: 0 auto;
+    text-align: center;    
 }
 
 .h_iframe {

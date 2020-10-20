@@ -2,36 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8" content="width=device-width, initial-scale=1">
-    <title>Bo's Math Quiz</title>
-    <script src="js/data.js"></script> 
-    <script src="js/pictures.js"></script> 
-    <script src="js/mark.js"></script>    
+    <title>Bo's Word Quiz</title>
+    <script src="js/updater.js"></script> 
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body onload = "drawQuestions()">
-    <h1>Bobo's Math Quiz</h1>
-    <h2 id="summaryId"></h2>	
-    <div class="row">
-      <div class="column" id="left_col">
-        <form id="questionForm">
-        </form>    
-      </div>
-      <div class="column" id="right_col">
-        <div class="wrapper">
-          <div class="h_iframe">
-              <!-- a transparent image is preferable -->
-              <img id="photoLink" class="ratio" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQp6dI58QyEw12MEE_sh3O2wEeBjXWULLQFWA&usqp=CAU"/>              
-              <iframe id="youtubeLink"                                    
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      src=""
-                      frameborder="0"                  
-                      allowfullscreen
-                      >
-              </iframe>
-          </div>
-        </div>
-      </div>
-    </div>
+  <body>
+    <h1>Bobo's Word Quiz</h1>
+    <h1 id="summaryId" style="font-size:800%">Begin</h2>	
 
+    <div class="wrapper">
+    <button type="button" onclick="update()">New Word</button>
+    </div>   
   </body>
 </html>
