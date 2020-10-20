@@ -17,22 +17,3 @@ function update()
     let idx = Math.floor(Math.random() * myQaData.length);
     summaryElt.innerHTML = myQaData[idx];
 }
-
-function drawQuestions()
-{
-    for(i = 0; i < numQuestions(); ++i)
-    {
-        quForm = document.getElementById("questionForm");
-        let elt = document.createElement("label");
-        elt.id = questionId(i);
-        elt.innerHTML = "</br>" + "Q" + (i+1) + ": " + quAndA(i)["Q"] + " ";
-        quForm.appendChild(elt);
-
-        let elt2 = document.createElement("input");
-        elt2.className = "answer"
-        elt2.id = answerId(i);
-        elt2.type = "number";
-        elt2.setAttribute("onchange", "markQuestions()");
-        quForm.appendChild(elt2);
-    }
-}

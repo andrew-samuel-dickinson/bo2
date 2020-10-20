@@ -19,18 +19,25 @@ body {
     height: 100%;
 }
 
-.button {
-    position: absolute;
-    color: yellow;
-    size: 30;
-    font-size: 18;
-    top: 50%;
-}
+.button1 {
+    font-size: 24px;
+    background-color: lightblue; /* Green */    
+    border: none;
+    color: darkred;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
+
+ 
 .wrapper {
     text-align: center;    
 }
-
+/*
 .h_iframe {
     position: relative;
 }
@@ -55,36 +62,6 @@ body {
     height: 100%;
 }
 
-.question {
-    color: blue;
-}
-
-.answer {
-    color: blue;
-}
-
-input {
-    width: 10%;
-    min-width: 35px;
-    padding: 3px 3px;
-    margin: 3px 0;
-    box-sizing: border-box;
-    border: 4px solid gray;
-    border-radius: 4px;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
-    -webkit-appearance: none;
-    margin: 0;
-    /* <-- Apparently some margin are still there even though it's hidden */
-}
-
-* {
-    box-sizing: border-box;
-  }
-  
   /* Create two equal columns that floats next to each other */
   .column {
     float: left;
@@ -119,3 +96,4 @@ img {
     width: 50%;
     height: 100%;
 }
+
