@@ -40,7 +40,12 @@ myQaData = [
     'what',
     'where',
     'who',
-    'one'
+    'one',
+    'bit and bite',
+    'water',
+    'they',
+    'there',
+    'then'
 ]
 
 function update()
