@@ -1,5 +1,6 @@
 myQaData = [
-    'began','wow','alien','know','whoosh','no','knot','not','knight','night'
+    'began','wow','alien','know','whoosh','no','knot','not','knight','night',
+    'were', 'where', 'what', 'when', 'how', 'who', 'one', 'won'
     ];
 
 
