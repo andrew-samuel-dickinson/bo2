@@ -1,14 +1,29 @@
 myQaData = [
     'began','wow','alien','know','whoosh','no','knot','not','knight','night',
-    'were', 'where', 'what', 'when', 'how', 'who', 'one', 'won'
+    'were', 'where', 'what', 'when', 'how', 'who', 'one', 'won',
+    'there', 'their', 'they\'re', 'they', 'Julbord', 'celebrate',
+    'really'
     ];
 
+copyQaData = [];
 
 function update()
+// pick at random without replacement
 {
-    let summaryElt = document.getElementById("summaryId");
-    let idx = Math.floor(Math.random() * myQaData.length);
-    summaryElt.innerHTML = myQaData[idx];
+    let summaryElt = document.getElementById("summaryId");    
+        
+    if(copyQaData.length == 0)
+        for(i = 0; i < myQaData.length; ++i)
+            copyQaData.push(myQaData[i]);
+    
+    let temp = Math.floor(Math.random() * copyQaData.length * 20);
+    let idx = temp % copyQaData.length;
+
+    summaryElt.innerHTML = copyQaData[idx];
+
+    if (idx > -1) {
+        copyQaData.splice(idx, 1);
+      }
 }
 
 
