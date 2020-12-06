@@ -22,7 +22,7 @@ function update()
 
     summaryElt.innerHTML = copyQaData[idx];
 
-    // rmeove current word from cloned list
+    // remove current word from cloned list
     if (idx > -1)
         copyQaData.splice(idx, 1);
 }
