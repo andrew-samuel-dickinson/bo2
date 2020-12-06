@@ -16,14 +16,15 @@ function update()
         for(i = 0; i < myQaData.length; ++i)
             copyQaData.push(myQaData[i]);
     
+    // take a large multiple to avoid edge effects for last word
     let temp = Math.floor(Math.random() * copyQaData.length * 20);
     let idx = temp % copyQaData.length;
 
     summaryElt.innerHTML = copyQaData[idx];
 
-    if (idx > -1) {
+    // rmeove current word from cloned list
+    if (idx > -1)
         copyQaData.splice(idx, 1);
-      }
 }
 
 
